@@ -15,6 +15,7 @@ const Login = () => {
     try {
       dispatch(showLoading());
       const response = await axios.post(`${baseUrl}/api/user/login`, values);
+      console.log(response);
       dispatch(hideLoading());
       if (response.data.success) {
         toast.success(response.data.message);

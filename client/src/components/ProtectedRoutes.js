@@ -14,8 +14,9 @@ const ProtectedRoutes = (props) => {
 
   const getUser = async () => {
     try {
-      const baseUrl = 'https://doctorapp-9o4g.onrender.comm';
+      const baseUrl = 'https://doctorapp-9o4g.onrender.com';
       dispatch(showLoading());
+      console.log(localStorage.getItem('token'));
       const response = await axios.post(
         `${baseUrl}/api/user/get-user-info-by-id`,
         { token: localStorage.getItem('token') },
