@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux';
 import { hideLoading, showLoading } from '../redux/alertsSlice';
 
 const Register = () => {
-  const baseUrl = 'https://doctor-htud.onrender.com';
+  const baseUrl = 'https://doctorapp-9o4g.onrender.com';
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const onfinish = async (values) => {

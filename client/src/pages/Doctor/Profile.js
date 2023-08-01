@@ -9,7 +9,7 @@ import DoctorForm from '../../components/DoctorForm';
 import moment from 'moment';
 
 const Profile = () => {
-  const baseUrl = 'https://doctor-htud.onrender.com';
+  const baseUrl = 'https://doctorapp-9o4g.onrender.com';
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { user } = useSelector((state) => state.user);

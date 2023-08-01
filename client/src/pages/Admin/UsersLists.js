@@ -9,7 +9,7 @@ import moment from 'moment';
 const UsersLists = () => {
   const [users, setUsers] = useState([]);
   const dispatch = useDispatch();
-  const baseUrl = 'https://doctor-htud.onrender.com';
+  const baseUrl = 'https://doctorapp-9o4g.onrender.com';
 
   const getUsersData = async () => {
     try {

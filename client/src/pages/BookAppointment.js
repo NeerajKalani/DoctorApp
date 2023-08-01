@@ -19,7 +19,7 @@ const BookAppointment = () => {
   const [date, setDate] = useState('');
   const params = useParams();
   const dispatch = useDispatch();
-  const baseUrl = 'https://doctor-htud.onrender.com';
+  const baseUrl = 'https://doctorapp-9o4g.onrender.com';
 
   const getDoctorData = async () => {
     try {

@@ -12,7 +12,7 @@ const Home = () => {
 
   const getData = async () => {
     try {
-      const baseUrl = 'https://doctor-htud.onrender.com';
+      const baseUrl = 'https://doctorapp-9o4g.onrender.com';
       dispatch(showLoading());
       const response = await axios.get(
         `${baseUrl}/api/user/get-all-approved-doctors`,

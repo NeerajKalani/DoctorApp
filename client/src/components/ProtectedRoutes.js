@@ -14,7 +14,7 @@ const ProtectedRoutes = (props) => {
 
   const getUser = async () => {
     try {
-      const baseUrl = 'https://doctor-htud.onrender.com';
+      const baseUrl = 'https://doctorapp-9o4g.onrender.comm';
       dispatch(showLoading());
       const response = await axios.post(
         `${baseUrl}/api/user/get-user-info-by-id`,
